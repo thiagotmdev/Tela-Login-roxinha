@@ -31,7 +31,7 @@ export const Login = () => {
         <C.Email_imput value={email} onChange={handleInputEmail} type={"email"}/>
         <C.Senha_label>Senha</C.Senha_label>
         <C.Senha_imput value={senha} onChange={handleInputSenha} type={"password"}/>
-        <Botao name="Conectar"></Botao>
+        <Botao name="Conectar" click={Dados}/>
         <C.Registro>
           Ainda não é cadastrado? <C.link to="/">Registre-se</C.link>
         </C.Registro>
