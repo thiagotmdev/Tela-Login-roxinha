@@ -55,6 +55,10 @@ export const Email_imput = styled.input`
   border-radius: 10px;
   line-height: 30px;
   padding: 10px;
+  :focus{
+    outline: none;
+    border:1px solid rgb(111, 8, 196);
+  }
 `;
 
 export const Senha_label = styled.label`
@@ -70,9 +74,13 @@ export const Senha_imput = styled.input`
   background-color: #f4f4f4;
   margin-bottom: 40px;
   border: none;
-  border-radius: 10px;
+  border-radius: 10px ;
   line-height: 30px;
   padding: 10px;
+  :focus{
+    outline: none;
+    border:1px solid rgb(111, 8, 196);
+  }
 `;
 
 export const Registro = styled.div`
